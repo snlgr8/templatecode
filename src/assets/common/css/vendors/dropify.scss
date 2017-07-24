@@ -1,0 +1,13 @@
+@import '../mixins';
+
+/*
+ * DROPIFY
+ */
+
+.dropify-wrapper {
+    border: 1px solid $gray-darken-more;
+    border-radius: 5px;
+    &.disabled {
+        opacity: .5;
+    }
+}

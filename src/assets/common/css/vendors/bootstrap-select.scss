@@ -1,0 +1,92 @@
+@import '../mixins';
+
+/*
+ * BOOTSTRAP SELECT
+ */
+
+
+.bootstrap-select {
+    .btn-default {
+        color: $black-lighten !important;
+        background-color: $white;
+        border-color: $gray;
+        &:hover {
+            border-color: $gray-darken;
+            background: $white !important;
+        }
+        &:focus, &:active {
+            border-color: $blue !important;
+            background: $white !important;
+            color: $black-lighten !important;
+        }
+    }
+    &.open {
+        .btn-default {
+            border-color: $blue !important;
+            background: $white !important;
+            color: $black-lighten !important;
+        }
+    }
+    .dropdown-menu {
+        li {
+            a {
+                padding: 5px 15px;
+                outline: none;
+                display: block;
+            }
+            &.hidden {
+                display: none;
+            }
+            &.no-results {
+                margin-left: 8px;
+                margin-right: 8px;
+                padding: 8px 10px;
+                border-radius: 5px;
+                background: $gray;
+            }
+        }
+    }
+    .filter-option {
+        text-overflow: ellipsis;
+    }
+    .dropdown-toggle {
+        &:focus {
+            outline: none !important;
+        }
+    }
+}
+
+.theme-inverse {
+    .bootstrap-select {
+        .btn-default {
+            color: $black-lighten-more-more !important;
+            background-color: $black-lighten;
+            border-color: $black-lighten;
+            &:hover {
+                color: $black-lighten-more-more !important;
+                background-color: $black-lighten !important;
+                border-color: $black-lighten !important;
+            }
+            &:focus, &:active {
+                color: $black-lighten-more-more !important;
+                background-color: $black-lighten !important;
+                border-color: $black-lighten !important;
+            }
+        }
+        &.open {
+            .btn-default {
+                color: $black-lighten-more-more !important;
+                background-color: $black-lighten !important;
+                border-color: $black-lighten !important;
+            }
+        }
+        .dropdown-menu {
+            li {
+                &.no-results {
+                    background: $black-lighten;
+                    color: $black-lighten-more-more !important;
+                }
+            }
+        }
+    }
+}
