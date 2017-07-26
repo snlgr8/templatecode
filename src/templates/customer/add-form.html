@@ -22,87 +22,60 @@
             </div>
             <div class="single-page-block-form">
                 <h3 class="text-center">
-                    <i class="icmn-users margin-right-10"></i> Complaint Register Form
+                    <i class="icmn-users margin-right-10"></i> Add Customer
+
                 </h3>
                 <br />
                 <form id="form-validation" name="form-validation" method="POST">
-                    <!--Complaint search  -->
-                    <div class="form-group">
-                        <!-- Typeahead Container -->
-                        <div class="typeahead__container">
-                            <div class="typeahead__field">
-                                <div class="typeahead__query">
-                                    <div class="input-group">
-                                        <input id="example1" class="form-control" name="" type="text" placeholder="" autocomplete="off" />
-                                        <span class="input-group-btn">
-                                                <a href="javascript: void(0);" class="btn btn-default">
-                                                    Find Complaint
-                                                </a>
-                                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <!--Customer ID -->
                     <div class="form-group">
-                        <input type="text" class="form-control"  placeholder="Customer id" readonly="" id="l11">
+                        <input type="text" class="form-control" placeholder="Customer id" id="l11">
                     </div>
                     <!--Customer Name -->
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer name" readonly="" id="l11">
+                        <input type="text" class="form-control" placeholder="Customer name" id="l11">
+                    </div>
+                    <!--Customer Email -->
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Customer email" id="l11">
                     </div>
 
                     <!--Customer Mobile no -->
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer mobile no" readonly="" id="l11">
-                    </div>
-                    <!--Customer Reg Date -->
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer reg date" readonly="" id="l11">
+                        <input type="text" class="form-control" placeholder="Customer mobile no" id="l11">
                     </div>
                     <!--Customer Area -->
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer area" readonly="" id="l11">
+                        <input type="text" class="form-control" placeholder="Customer area" id="l11">
                     </div>
                     <!--operator -->
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="operator" readonly="" id="l11">
+                        <input type="text" class="form-control" placeholder="operator" id="l11">
                     </div>
 
                     <!--Customer address -->
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer address" readonly="" id="l11">
+                        <input type="text" class="form-control" placeholder="Customer address" id="l11">
                     </div>
-                    <!--Complaint String : To be entered -->
+
+                    <!--Customer Reg Date / Todays date -->
+
                     <div class="form-group">
-                        <textarea class="form-control" rows="3" id="l15"></textarea>
+                        <input type="text" class="form-control" placeholder="Customer reg date" id="l11">
                     </div>
                     <!--Submit complaint -->
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-primary width-150">Submit Complaint</button>
+                        <button type="submit" class="btn btn-primary width-150">Add Customer</button>
 
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    <div class="single-page-block-footer text-center">
-        <!--<ul class="list-unstyled list-inline">
-            <li><a href="javascript: void(0);">Terms of Use</a></li>
-            <li class="active"><a href="javascript: void(0);">Compliance</a></li>
-            <li><a href="javascript: void(0);">Confidential Information</a></li>
-            <li><a href="javascript: void(0);">Support</a></li>
-            <li><a href="javascript: void(0);">Contacts</a></li>
-        </ul>-->
-    </div>
     <!-- End Register Page -->
 
 </div>
-
-<!-- Page Scripts -->
 <script>
     $(function () {
 
