@@ -974,142 +974,211 @@
 </nav>
 
 <section class="page-content">
-<div class="page-content-inner" style="background-image: url(../assets/common/img/temp/login/2.jpg)">
+<div class="page-content-inner">
 
-    <!-- Register Page -->
-    <div class="single-page-block-header">
-        <div class="row">
-            <div class="col-lg-8">
-                <!-- <div class="single-page-block-header-menu">
-                    <ul class="list-unstyled list-inline">
-                        <li><a href="javascript: history.back();">&larr; Back</a></li>
-                        <li class="active"><a href="javascript: void(0);">Register</a></li>
-                        <li><a href="javascript: void(0);">About</a></li>
-                        <li><a href="javascript: void(0);">Support</a></li>
-                    </ul>
-                </div>-->
-            </div>
+    <!-- Basic Form Elements -->
+    <section class="panel">
+        <div class="panel-heading">
+            <h3>Add Customer</h3>
         </div>
-    </div>
-    <div class="single-page-block">
-        <div class="single-page-block-inner">
-            <div class="blur-placeholder">
-                <!-- -->
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="margin-bottom-50">
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer ID</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer id" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer name" id="l11">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Email</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="email" class="form-control" placeholder="Customer Email" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Mobile No</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer mobile no" id="l11">
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Area</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer Area" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Address</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer address" id="l11">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Operator</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="dropdown">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Select operator
+                            </button>
+                                        <ul class="dropdown-menu dropdown-animate" aria-labelledby="" role="menu">
+                                            <a class="dropdown-item" href="javascript: void(0)">Action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Another action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Another action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Something else here</a>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Plan selected</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="dropdown">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Select plan
+                            </button>
+                                        <ul class="dropdown-menu dropdown-animate" aria-labelledby="" role="menu">
+                                            <a class="dropdown-item" href="javascript: void(0)">Action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Another action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Another action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Something else here</a>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Register date</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="input-group datepicker-only-init">
+                                <input type="text" class="form-control" placeholder="Select Date" />
+                                <span class="input-group-addon">
+                                    <i class="icmn-calendar"></i>
+                                </span>
+                            </label>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Due date</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="input-group datepicker-only-init">
+                                <input type="text" class="form-control" placeholder="Select Date" />
+                                <span class="input-group-addon">
+                                    <i class="icmn-calendar"></i>
+                                </span>
+                            </label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">KYC</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="dropdown">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                Select KYC documents
+                            </button>
+                                        <ul class="dropdown-menu dropdown-animate" aria-labelledby="" role="menu">
+                                            <a class="dropdown-item" href="javascript: void(0)">Action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Another action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Another action</a>
+                                            <a class="dropdown-item" href="javascript: void(0)">Something else here</a>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l16">File input</label>
+                                </div>
+                                <div class="col-md-4">
+
+                        <input type="file" class="dropify" data-height="70" />
+                    
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-4">
+                                    <div class="checkbox">
+                                        <label>
+                                    <input type="checkbox" name="example6" checked="">
+                                    Router Installed
+                                </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <div class="form-group row">
+                                    <div class="col-md-9 col-md-offset-3">
+                                        <button type="button" class="btn width-150 btn-primary">Add Customer</button>
+                                        <button type="button" class="btn btn-default">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="single-page-block-form">
-                <h3 class="text-center">
-                    <i class="icmn-users margin-right-10"></i> Add Customer
-
-                </h3>
-                <br />
-                <form id="form-validation" name="form-validation" method="POST">
-                    <!--Customer ID -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer id" id="l11">
-                    </div>
-                    <!--Customer Name -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer name" id="l11">
-                    </div>
-                    <!--Customer Email -->
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Customer email" id="l11">
-                    </div>
-
-                    <!--Customer Mobile no -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer mobile no" id="l11">
-                    </div>
-                    <!--Customer Area -->
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer area" id="l11">
-                    </div>
-                    <!--operator -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="operator" id="l11">
-                    </div>
-
-                    <!--Customer address -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer address" id="l11">
-                    </div>
-
-                    <!--Customer Reg Date / Todays date -->
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer reg date" id="l11">
-                    </div>
-                    <!--Submit complaint -->
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary width-150">Add Customer</button>
-
-                    </div>
-                </form>
-            </div>
+            <!-- End Register Page -->
         </div>
-    </div>
-    <!-- End Register Page -->
 
 </div>
+</div>
+</section>
+</div>
+
 <script>
     $(function () {
-
-        // Form Validation
-        $('#form-validation').validate({
-            submit: {
-                settings: {
-                    inputContainer: '.form-group',
-                    errorListClass: 'form-control-error',
-                    errorClass: 'has-danger'
-                }
-            }
+        $('.datepicker-only-init').datetimepicker({
+            widgetPositioning: {
+                horizontal: 'left'
+            },
+            icons: {
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-arrow-up",
+                down: "fa fa-arrow-down"
+            },
+            format: 'LL'
         });
+        $('.dropify').dropify();
 
-        // Add class to body for change layout settings
-        $('body').addClass('single-page');
-
-        // Set Background Image for Form Block
-        function setImage() {
-            var imgUrl = $('.page-content-inner').css('background-image');
-
-            $('.blur-placeholder').css('background-image', imgUrl);
-        };
-
-        function changeImgPositon() {
-            var width = $(window).width(),
-                height = $(window).height(),
-                left = - (width - $('.single-page-block-inner').outerWidth()) / 2,
-                top = - (height - $('.single-page-block-inner').outerHeight()) / 2;
-
-
-            $('.blur-placeholder').css({
-                width: width,
-                height: height,
-                left: left,
-                top: top
-            });
-        };
-
-        setImage();
-        changeImgPositon();
-
-        $(window).on('resize', function () {
-            changeImgPositon();
-        });
-
-        // Mouse Move 3d Effect
-        var rotation = function (e) {
-            var perX = (e.clientX / $(window).width()) - 0.5;
-            var perY = (e.clientY / $(window).height()) - 0.5;
-            TweenMax.to(".effect-3d-element", 0.4, { rotationY: 15 * perX, rotationX: 15 * perY, ease: Linear.easeNone, transformPerspective: 1000, transformOrigin: "center" })
-        };
-
-        if (!cleanUI.hasTouch) {
-            $('body').mousemove(rotation);
-        }
-
-    });
+    })
 
 </script>
 <!-- End Page Scripts -->

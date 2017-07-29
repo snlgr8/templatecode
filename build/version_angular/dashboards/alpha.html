@@ -1,166 +1,124 @@
-<div class="page-content-inner" style="background-image: url(../assets/common/img/temp/login/2.jpg)">
+<div class="page-content-inner">
 
-    <!-- Register Page -->
-    <div class="single-page-block-header">
-        <div class="row">
-            <div class="col-lg-8">
-                <!-- <div class="single-page-block-header-menu">
-                    <ul class="list-unstyled list-inline">
-                        <li><a href="javascript: history.back();">&larr; Back</a></li>
-                        <li class="active"><a href="javascript: void(0);">Register</a></li>
-                        <li><a href="javascript: void(0);">About</a></li>
-                        <li><a href="javascript: void(0);">Support</a></li>
-                    </ul>
-                </div>-->
-            </div>
+    <!-- Basic Form Elements -->
+    <section class="panel">
+        <div class="panel-heading">
+            <h3>Complaint Register</h3>
         </div>
-    </div>
-    <div class="single-page-block">
-        <div class="single-page-block-inner">
-            <div class="blur-placeholder">
-                <!-- -->
-            </div>
-            <div class="single-page-block-form">
-                <h3 class="text-center">
-                    <i class="icmn-users margin-right-10"></i> Complaint Register Form
-                </h3>
-                <br />
-                <form id="form-validation" name="form-validation" method="POST">
-                    <!--Complaint search  -->
-                    <div class="form-group">
-                        <!-- Typeahead Container -->
-                        <div class="typeahead__container">
-                            <div class="typeahead__field">
-                                <div class="typeahead__query">
-                                    <div class="input-group">
-                                        <input id="example1" class="form-control" name="" type="text" placeholder="" autocomplete="off" />
-                                        <span class="input-group-btn">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="margin-bottom-50">
+
+                        <br />
+                        <!-- Horizontal Form -->
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <div class="typeahead__container">
+                                        <div class="typeahead__field">
+                                            <div class="typeahead__query">
+                                                <div class="input-group">
+                                                    <input id="example1" class="form-control" name="" type="text" placeholder="" autocomplete="off" />
+                                                    <span class="input-group-btn">
                                                 <a href="javascript: void(0);" class="btn btn-default">
-                                                    Find Complaint
+                                                    Find Customer
                                                 </a>
                                             </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--                                <div class="col-md-4">
+                                      <input type="text" class="form-control" placeholder="Customer name" readonly="" id="l11">
+                                </div>
+-->
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer ID</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer id" readonly="" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer name" readonly="" id="l11">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Mobile No</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer mobile no" readonly="" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Register Date</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer reg date" readonly="" id="l11">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Area</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer area" readonly="" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Oprerator</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="operator" readonly="" id="l11">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Address</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <textarea class="form-control" rows="3" id="l15"></textarea>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Complaint description</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <textarea class="form-control" rows="3" id="l15"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <div class="form-group row">
+                                    <div class="col-md-9 col-md-offset-3">
+                                        <button type="button" class="btn width-150 btn-primary">Submit</button>
+                                        <button type="button" class="btn btn-default">Cancel</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
+                        <!-- End Horizontal Form -->
                     </div>
-                    <!--Customer ID -->
-                    <div class="form-group">
-                        <input type="text" class="form-control"  placeholder="Customer id" readonly="" id="l11">
-                    </div>
-                    <!--Customer Name -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer name" readonly="" id="l11">
-                    </div>
-
-                    <!--Customer Mobile no -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer mobile no" readonly="" id="l11">
-                    </div>
-                    <!--Customer Reg Date -->
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer reg date" readonly="" id="l11">
-                    </div>
-                    <!--Customer Area -->
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer area" readonly="" id="l11">
-                    </div>
-                    <!--operator -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="operator" readonly="" id="l11">
-                    </div>
-
-                    <!--Customer address -->
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Customer address" readonly="" id="l11">
-                    </div>
-                    <!--Complaint String : To be entered -->
-                    <div class="form-group">
-                        <textarea class="form-control" rows="3" id="l15"></textarea>
-                    </div>
-                    <!--Submit complaint -->
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary width-150">Submit Complaint</button>
-
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="single-page-block-footer text-center">
-        <!--<ul class="list-unstyled list-inline">
-            <li><a href="javascript: void(0);">Terms of Use</a></li>
-            <li class="active"><a href="javascript: void(0);">Compliance</a></li>
-            <li><a href="javascript: void(0);">Confidential Information</a></li>
-            <li><a href="javascript: void(0);">Support</a></li>
-            <li><a href="javascript: void(0);">Contacts</a></li>
-        </ul>-->
-    </div>
-    <!-- End Register Page -->
+</div>
+</div>
+</div>
+</section>
+<!-- End -->
 
 </div>
-
-<!-- Page Scripts -->
-<script>
-    $(function () {
-
-        // Form Validation
-        $('#form-validation').validate({
-            submit: {
-                settings: {
-                    inputContainer: '.form-group',
-                    errorListClass: 'form-control-error',
-                    errorClass: 'has-danger'
-                }
-            }
-        });
-
-        // Add class to body for change layout settings
-        $('body').addClass('single-page');
-
-        // Set Background Image for Form Block
-        function setImage() {
-            var imgUrl = $('.page-content-inner').css('background-image');
-
-            $('.blur-placeholder').css('background-image', imgUrl);
-        };
-
-        function changeImgPositon() {
-            var width = $(window).width(),
-                height = $(window).height(),
-                left = - (width - $('.single-page-block-inner').outerWidth()) / 2,
-                top = - (height - $('.single-page-block-inner').outerHeight()) / 2;
-
-
-            $('.blur-placeholder').css({
-                width: width,
-                height: height,
-                left: left,
-                top: top
-            });
-        };
-
-        setImage();
-        changeImgPositon();
-
-        $(window).on('resize', function () {
-            changeImgPositon();
-        });
-
-        // Mouse Move 3d Effect
-        var rotation = function (e) {
-            var perX = (e.clientX / $(window).width()) - 0.5;
-            var perY = (e.clientY / $(window).height()) - 0.5;
-            TweenMax.to(".effect-3d-element", 0.4, { rotationY: 15 * perX, rotationX: 15 * perY, ease: Linear.easeNone, transformPerspective: 1000, transformOrigin: "center" })
-        };
-
-        if (!cleanUI.hasTouch) {
-            $('body').mousemove(rotation);
-        }
-
-    });
-
-</script>
-<!-- End Page Scripts -->

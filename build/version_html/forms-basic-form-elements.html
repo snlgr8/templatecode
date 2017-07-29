@@ -979,7 +979,7 @@
     <!-- Basic Form Elements -->
     <section class="panel">
         <div class="panel-heading">
-            <h3>Basic Form Elements</h3>
+            <h3>Complaint Register</h3>
         </div>
         <div class="panel-body">
             <div class="row">
@@ -990,49 +990,91 @@
                         <!-- Horizontal Form -->
                         <form>
                             <div class="form-group row">
-                                <div class="col-md-3">
-                                    <label class="form-control-label" for="l0">Default Input</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="password" class="form-control" placeholder="Default Input" id="l0">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-3">
-                                    <label class="form-control-label" for="l10">Disabled</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="password" class="form-control" placeholder="Disabled" disabled="" id="l10">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-3">
-                                    <label class="form-control-label" for="l11">Readonly</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <input type="password" class="form-control" placeholder="Readonly" readonly="" id="l11">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-3">
-                                    <label class="form-control-label" for="l4">With Actions on Left</label>
-                                </div>
-                                <div class="col-md-9">
-                                    <div class="input-group">
-                                        <div class="input-group-btn">
-                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                                Action
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <a class="dropdown-item" href="javascript: void(0);">Action</a>
-                                                <a class="dropdown-item" href="javascript: void(0);">Another action</a>
-                                                <a class="dropdown-item" href="javascript: void(0);">Something else here</a>
-                                                <li class="dropdown-divider"> </li>
-                                                <a class="dropdown-item" href="javascript: void(0);">Separated link</a>
-                                            </ul>
+                                <div class="col-md-4">
+                                    <div class="typeahead__container">
+                                        <div class="typeahead__field">
+                                            <div class="typeahead__query">
+                                                <div class="input-group">
+                                                    <input id="example1" class="form-control" name="" type="text" placeholder="" autocomplete="off" />
+                                                    <span class="input-group-btn">
+                                                <a href="javascript: void(0);" class="btn btn-default">
+                                                    Find Complaint
+                                                </a>
+                                            </span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <input type="text" class="form-control" id="l4">
                                     </div>
+                                </div>
+
+                                <!--                                <div class="col-md-4">
+                                      <input type="text" class="form-control" placeholder="Customer name" readonly="" id="l11">
+                                </div>
+-->
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer ID</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer id" readonly="" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer name" readonly="" id="l11">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Mobile No</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer mobile no" readonly="" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Register Date</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer reg date" readonly="" id="l11">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Customer Area</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer area" readonly="" id="l11">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Oprerator</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="operator" readonly="" id="l11">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Address</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Customer address" readonly="" id="l11">
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label class="form-control-label" for="l5">Complaint description</label>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <textarea class="form-control" rows="3" id="l15"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
